@@ -1,6 +1,5 @@
-LIST OF MEMBERS FOR TEAM 093       465132
- 
-MEMBER 1 NAME: Hassan Al Lawati
+LIST OF MEMBERS FOR TEAM 093 
+MEMBER 1 NAME: Hassan Al Lawati prac7
  
 MEMBER 2 NAME: Caleb Liik
  
