@@ -26,7 +26,7 @@
 
 // ADD YOUR ADDITIONAL FUNCTIONS AND GLOBAL VARIABLES HERE
 
-var PrevIm= ''; 
+var PrevIm= ''; ======
 var mCode="";
 var redCount=0;
 var blueCount=0;
