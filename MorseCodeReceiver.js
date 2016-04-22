@@ -33,7 +33,7 @@ var blueCount=0;
 var output="";
 
 var msgFieldRef= document.getElementById("messageField");
-var fish = {
+var morseCode = {
     "._" : "a",
     "_...":"b",
 	"_._.":"c",
@@ -195,7 +195,7 @@ if (PrevIm =="blue" && imageColor== true && blueCount<=3)
         {
             blueCount=0;
             redCount++;
-            output+= fish[mCode];
+            output+= morseCode[mCode];
             mCode= "";
             PrevIm="red"
         }
@@ -205,7 +205,7 @@ if (PrevIm =="blue" && imageColor== true && blueCount<=3)
 	  PrevIm="red";
 	 
 	 if (mCode!== ""){
-            output+= fish[mCode]+" ";
+            output+= morseCode[mCode]+" ";
             mCode= "";}
 	 
            else  {
@@ -215,7 +215,7 @@ if (PrevIm =="blue" && imageColor== true && blueCount<=3)
 	
 	
 	
-	if (fish[mCode] === "End Of transmission") 
+	if (morseCode[mCode] === "End Of transmission") 
 	{	
 		messageFinished();
 	}
